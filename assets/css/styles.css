@@ -3,14 +3,16 @@
 }
 
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-    background-color: rgb(34, 34, 34);
-    color: goldenrod;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(34, 34, 34);
+  color: goldenrod;
+  font-family: 'Festive', cursive;
+  font-family: 'Fruktur', cursive;font-family: 'Festive', cursive;
+  font-family: 'Fruktur', cursive;
+  
 }
 
 .navbar {
@@ -23,7 +25,7 @@ html, body {
 }
 
 .brand-title {
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin: .5rem;
 }
 
@@ -164,28 +166,36 @@ input[type=submit]:hover {
   display: flex;
   height: 100%;
   width: 100%;
-  border:1px #ccc solid;
-  padding:10px;
+  border:0;
+  padding:0px;
 
 }
    
 .leftpane {
- display: block;
- background-color: rgb(105, 104, 104);
- font-size: 1em;   
+width: 40%;
+height: 100%;
+background-color: rgb(105, 104, 104);
+font-size: 3em;
+
+}
+
+.headshot, .social-links {
+  margin-top: 25%;
+  border: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+width: 40%;
+}
+
+.social-links {
+margin: 0%;
 }
 
 .maincontent {
   display: flex;
+  
 }
-
-img {
-  width: 30%;
-  border: none;
-  padding: 15px;
-  position: relative;
-  background-color: #555;
-  /* display: inline-block; */
-
-}
-
