@@ -189,10 +189,16 @@ font-size: 3em;
 
 img {
 width: 40%;
+border-radius: 50%;
 }
 
 .social-links {
-margin: 0%;
+display: flex;
+justify-content: space-around;
+margin: 18%;
+margin-top: 5%;
+font-size: 100%;
+
 }
 
 .maincontent {
