@@ -10,8 +10,8 @@ html, body {
   background-color: rgb(34, 34, 34);
   color: goldenrod;
   font-family: 'Festive', cursive;
-  font-family: 'Fruktur', cursive;font-family: 'Festive', cursive;
   font-family: 'Fruktur', cursive;
+  font-family: 'Jost', sans-serif;
   
 }
 
@@ -27,7 +27,11 @@ html, body {
 .brand-title {
     font-size: 3rem;
     margin: .5rem;
-}
+    font-family: 'Festive', cursive;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    }
 
 .navbar-links {
     height: 100%;
@@ -162,6 +166,7 @@ input[type=submit]:hover {
   }
 }
 
+
 .container {
   display: flex;
   height: 100%;
@@ -202,6 +207,23 @@ font-size: 100%;
 }
 
 .maincontent {
-  display: flex;
-  
+  width: 100%;
+  height: 100%;
+  margin: 5%;
+ 
+}
+
+h1{
+  font-weight: bold;
+  font-size: 3em;
+}
+
+p {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+a {
+  font-size: 200%;
+  font-weight: bold;
 }
