@@ -193,8 +193,12 @@ font-size: 3em;
 }
 
 img {
+display: flex;
+justify-content: space-around;
+margin-top: 5%;
 width: 40%;
 border-radius: 50%;
+
 }
 
 .social-links {
