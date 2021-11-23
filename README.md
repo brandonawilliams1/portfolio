@@ -1,6 +1,6 @@
 # portfolio
 
-https://github.com/brandonawilliams1/portfolio
+https://brandonawilliams1.github.io/portfolio/
 
 
 personal portfolio v2.0 changes
