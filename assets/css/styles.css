@@ -204,7 +204,7 @@ border-radius: 50%;
 .social-links {
 display: flex;
 justify-content: space-around;
-margin: 9%;
+margin: 1%;
 margin-top: 5%;
 font-size: 50%;
 }
