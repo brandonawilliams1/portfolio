@@ -79,7 +79,7 @@ html, body {
     border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -204,9 +204,9 @@ border-radius: 50%;
 .social-links {
 display: flex;
 justify-content: space-around;
-margin: 1%;
+margin: 18%;
 margin-top: 5%;
-font-size: 50%;
+font-size: 100%;
 }
 
 a{
@@ -282,7 +282,7 @@ a {
   button:hover {
   background: #818181;
   }    
-  @media (min-width: 568px) {
+  @media (min-width: 700px) {
   .main-block {
   flex-direction: row;
   }
