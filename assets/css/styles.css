@@ -171,14 +171,15 @@ input[type=submit]:hover {
   display: flex;
   height: 100%;
   width: 100%;
-  border:0;
+  border:0px;
   padding:0px;
+  margin: 0;
 
 }
    
 .leftpane {
 width: 100%;
-height: 100%;
+height: 1200px;
 background-color: rgb(105, 104, 104);
 font-size: 3em;
 
