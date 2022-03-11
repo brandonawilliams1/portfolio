@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 
-html, body {
+html, .wrapper {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
   background-color: rgb(34, 34, 34);
   color: goldenrod;
   font-family: 'Festive', cursive;
@@ -177,7 +177,7 @@ input[type=submit]:hover {
 }
    
 .leftpane {
-width: 40%;
+width: 100%;
 height: 100%;
 background-color: rgb(105, 104, 104);
 font-size: 3em;
@@ -196,7 +196,7 @@ img {
 display: flex;
 justify-content: space-around;
 margin-top: 5%;
-width: 40%;
+width: 30%;
 border-radius: 50%;
 
 }
